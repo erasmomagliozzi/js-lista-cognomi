@@ -11,9 +11,8 @@ while(cognome.length <= 0){
 }
 console.log(cognome);
 listaCognomi.push(cognome);
-console.log(listaCognomi);
+listaCognomi.sort();
 
 for(var i = 0; i < listaCognomi.length; i++){
   document.getElementById("listaOrdinata").innerHTML += '<li>' + listaCognomi[i] + '</li>';
 }
-listaCognomi.sort();
