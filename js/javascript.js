@@ -16,3 +16,5 @@ listaCognomi.sort();
 for(var i = 0; i < listaCognomi.length; i++){
   document.getElementById("listaOrdinata").innerHTML += '<li>' + listaCognomi[i] + '</li>';
 }
+var posizione = listaCognomi.indexOf(cognome) + 1;
+document.getElementById('position').innerHTML = posizione;
